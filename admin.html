@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Админ-панель</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="admin-header">
+    <h1>Админ-панель</h1>
+    <button onclick="logout()" class="logout-btn">Выйти</button>
+  </header>
+
+  <main class="admin-container">
+    <h2>Редактирование расписания</h2>
+
+    <label>День недели:</label>
+    <select id="daySelect"></select>
+
+    <div id="lessonsBox"></div>
+
+    <button onclick="saveSchedule()" class="save-btn">Сохранить расписание</button>
+  </main>
+
+  <script src="admin.js"></script>
+</body>
+</html>

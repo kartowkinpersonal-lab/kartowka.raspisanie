@@ -1,0 +1,16 @@
+body{margin:0;font-family:Arial;background:#f0f2f5}
+header{background:#2563eb;color:#fff;padding:20px;text-align:center}
+.login-body{display:flex;justify-content:center;align-items:center;height:100vh;background:#e2e8f0}
+.login-box{background:white;padding:20px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.1);width:300px;text-align:center}
+.login-box input{width:90%;padding:10px;margin:8px 0;border-radius:8px;border:1px solid #ccc}
+.login-box button{padding:10px 15px;border:none;background:#2563eb;color:white;border-radius:8px;cursor:pointer;width:100%}
+
+.admin-header{display:flex;justify-content:space-between;background:#2563eb;color:white;padding:15px}
+.logout-btn{background:#dc2626;color:white;border:none;padding:8px 12px;border-radius:8px;cursor:pointer}
+.admin-container{max-width:600px;margin:20px auto;background:white;padding:20px;border-radius:12px;box-shadow:0 3px 10px rgba(0,0,0,.1)}
+.lesson-edit{margin-bottom:8px}
+.lesson-edit input{padding:6px;width:60%}
+.save-btn{padding:10px 15px;background:#16a34a;color:white;border:none;border-radius:8px;margin-top:15px;cursor:pointer}
+
+.public-container{max-width:600px;margin:20px auto;background:white;padding:20px;border-radius:12px;box-shadow:0 3px 10px rgba(0,0,0,.1)}
+.public-box .lesson{padding:8px;border-bottom:1px solid #e5e7eb}
